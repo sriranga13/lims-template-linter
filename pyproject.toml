@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lims-template-linter"
+version = "0.1.0"
+description = "Governance linting for lab template/schema JSON definitions"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sri Gorantla" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+lims-template-lint = "template_linter.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/sriranga13/lims-template-linter"
+
+[tool.setuptools.packages.find]
+where = ["src"]
