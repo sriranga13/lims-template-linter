@@ -1,0 +1,1 @@
+{"entity":{"description":"Duplicate of the good sample template to trigger ENT-002.","fields":[{"description":"Lab-assigned sample identifier.","name":"sample_id","required":true,"type":"string"}],"id":"ENT_SAMPLE","name":"sample"}}
